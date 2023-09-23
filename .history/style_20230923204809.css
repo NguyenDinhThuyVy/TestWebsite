@@ -2,16 +2,11 @@
 
 :root {
   --main-color: #F7F7F7;
-  --bcg-detail-color: #f8f8f8;
-  --labels-color: #FFFFFF;
-  --product-purchase-table: #ffffff;
-  --star--color: #EABE12;
-  --black: #191717;
+  --black: #333;
   --white: #fff;
-  --light-color: #eac794;
+  --light-color: #666;
   --border: .2rem solid var(--black);
   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-  --fontcolor: #777777
 }
 
 * {
@@ -27,12 +22,12 @@
 }
 
 *::-moz-selection {
-  background-color: var(--bcg-detail-color);
+  background-color: var(--main-color);
   color: var(--white);
 }
 
 *::selection {
-  background-color: var(--bcg-detail-color);
+  background-color: var(--main-color);
   color: var(--white);
 }
 
@@ -46,7 +41,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--li);
+  background-color: var(--main-color);
 }
 
 html {
@@ -56,20 +51,19 @@ html {
   scroll-padding-top: 6.5rem;
 }
 
-/*detail-wrapper  */
 .detail-wrapper {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  background-color: var(--bcg-detail-color);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #F7F7F7;
   max-height: 100vh;
   /* align-items: stretch; */
 }
 
 .product-view {
   font-size: 2rem;
-  margin: 20px 20px 40px 20px;
-  width: 100%;
-  height: 1005;
+  margin: 10px 5px 0px 20px;
+  width: 470px;
   overflow: hidden;
   position: relative;
 }
@@ -79,7 +73,6 @@ html {
   max-height: 100%;
   width: 100%;
   border-radius: 10px;
-  border: #333 solid 1px;
 }
 
 .product-view .product-labels {
@@ -87,37 +80,35 @@ html {
   top: 0;
   right: 0;
   z-index: 2;
-  margin: 15px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
-  width: 50px;
+  width: 80px;
 }
 
 .product-view .product-labels .product-onsale {
   border-radius: 20px;
-  background-color: var(--labels-color);
+  background-color: #FFFFFF;
   text-align: center;
   margin-bottom: 10px;
   padding: 5px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .product-view .product-labels .product-feature {
   border-radius: 20px;
-  background-color: var(--labels-color);
+  background-color: #FFFFFF;
   text-align: center;
   padding: 5px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
-.product-content {
-  width: 100%;
-  margin: 20px;
-  width: auto;
-}
 
 .header-detail {
-  background-color: var(--bcg-detail-color);
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--main-color);
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -129,71 +120,35 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   position: relative;
-  padding: 0 2rem;
+  padding: 1.5rem 2rem;
 }
 
-/* .header-detail .path-detail .product-path {
+.header-detail .path-detail .product-path {
   margin-left: 2rem;
+  font-size: 2rem;
   color: var(--black);
-} */
+}
 
 .header-detail .path-detail .product-path a,
-.header-detail .path-detail .product-name {
-  margin-left: 1rem;
-  font-size: 1.6rem;
-  color: var(--fontcolor);
-  text-decoration: none;
-}
-
-.header-detail .path-detail .product-name {
+span {
+  margin-left: 2rem;
+  font-size: 2rem;
   color: var(--black);
-  font-weight: 900;
 }
 
-.header-detail .path-detail .product-path a:hover:not(.icon-division) {
+.header-detail .path-detail .product-path a:hover {
   text-decoration: underline;
-  color: var(--black);
-  text-decoration: none;
+  color: var(--main-color);
 }
 
-.header-detail .product-management {
-  font-size: 1.5rem;
+.product-management {
+  font-size: 2.5rem;
   color: var(--black);
   cursor: pointer;
-}
-
-.header-detail .product-management .product-large {
-  margin: 0 10px
-}
-
-.content-detail {
-  margin: 20px 0px 0px 30px;
-  display: grid;
-  grid-template-columns: 60% 40%;
-  overflow: hidden;
-  height: 330px;
-}
-
-.content-detail .product-information {
-  margin-right: 10px;
-}
-
-.content-detail .product-information .product-title {
-  font-size: 3.5rem;
-  font-weight: 900;
-}
-
-.content-detail .product-information .product-reviews :not(span, a) {
-  color: var(--star--color);
-  font-size: 1.5rem;
-  margin: 10px 0px;
-}
-
-.product-purchase-table {
-  width: 100%;
-  background-color: var(--product-purchase-table);
-
 }
 
 @media(max-width: 991px) {

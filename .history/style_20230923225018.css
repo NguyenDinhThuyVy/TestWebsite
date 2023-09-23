@@ -5,7 +5,6 @@
   --bcg-detail-color: #f8f8f8;
   --labels-color: #FFFFFF;
   --product-purchase-table: #ffffff;
-  --star--color: #EABE12;
   --black: #191717;
   --white: #fff;
   --light-color: #eac794;
@@ -153,7 +152,7 @@ html {
 
 .header-detail .path-detail .product-path a:hover:not(.icon-division) {
   text-decoration: underline;
-  color: var(--black);
+  color: var(--light-color);
   text-decoration: none;
 }
 
@@ -168,7 +167,7 @@ html {
 }
 
 .content-detail {
-  margin: 20px 0px 0px 30px;
+  margin: 50px 0px 0px 30px;
   display: grid;
   grid-template-columns: 60% 40%;
   overflow: hidden;
@@ -182,12 +181,6 @@ html {
 .content-detail .product-information .product-title {
   font-size: 3.5rem;
   font-weight: 900;
-}
-
-.content-detail .product-information .product-reviews :not(span, a) {
-  color: var(--star--color);
-  font-size: 1.5rem;
-  margin: 10px 0px;
 }
 
 .product-purchase-table {
