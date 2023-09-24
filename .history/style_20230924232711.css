@@ -18,7 +18,6 @@
   --border: .2rem solid var(--black);
   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
   --fontcolor: #777777;
-  --icon-down: #77777758;
   --old-price: #BBBBBB;
 }
 
@@ -279,40 +278,22 @@ html {
   color: var(--hover-color);
 }
 
-.product-purchase-table .platform,
-.product-purchase-table .edition {
-  margin-top: 18px;
+.product-purchase-table .platform {
+  margin-top: 20px;
   display: grid;
-  grid-template-columns: 26% 72%;
+  grid-template-columns: 30% 70%;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
-  align-items: center;
-  height: 50px;
+  font-size: 1.5rem;
 }
 
-.product-purchase-table .platform .plat-text,
-.product-purchase-table .edition .edi-text {
+.product-purchase-table .platform .plat-text {
   font-weight: 800;
 }
 
-.product-purchase-table .platform .plat-dropdown,
-.product-purchase-table .edition .edi-dropdown {
-  display: flex;
-  border: var(--line-color) solid 2px;
-  border-radius: 20px;
-  padding: 10px;
-  font-size: 1.3rem;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--fontcolor);
-  cursor: pointer;
+.product-purchase-table .platform .plat-dropdown {
+  border: var(--line-color);
+  border-radius: 5px;
 }
-
-.product-purchase-table .platform .plat-dropdown .icon-down,
-.product-purchase-table .edition .edi-dropdown .icon-down {
-  color: var(--icon-down);
-}
-
 
 @media(max-width: 991px) {
   html {

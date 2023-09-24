@@ -283,9 +283,9 @@ html {
 .product-purchase-table .edition {
   margin-top: 18px;
   display: grid;
-  grid-template-columns: 26% 72%;
+  grid-template-columns: 30% 70%;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   align-items: center;
   height: 50px;
 }

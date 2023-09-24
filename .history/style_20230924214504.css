@@ -1,25 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bebas+Neue&family=Borel&family=Cabin&family=Montserrat&family=Oswald:wght@200&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin&family=Archivo+Black&family=Bebas+Neue&family=Borel&family=Montserrat&family=Oswald:wght@200&display=swap');
 
 
 
 :root {
   --title-color: rgb(67, 67, 67);
-  --line-color: #adabab37;
   --main-color: #F7F7F7;
   --bcg-detail-color: #f8f8f8;
   --labels-color: #fdf7f7;
   --product-purchase-table: #ffffff;
-  --hover-color: #bd4040;
   --star-color: #EABE12;
   --black: #191717;
   --white: #fff;
   --light-color: #eac794;
   --border: .2rem solid var(--black);
   --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-  --fontcolor: #777777;
-  --icon-down: #77777758;
-  --old-price: #BBBBBB;
+  --fontcolor: #777777
 }
 
 * {
@@ -150,8 +146,8 @@ html {
 
 .header-detail .path-detail .product-name {
   color: var(--black);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 150;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
 }
 
 .header-detail .path-detail .product-path a:hover:not(.icon-division) {
@@ -175,7 +171,7 @@ html {
   display: grid;
   grid-template-columns: 60% 40%;
   overflow: hidden;
-  height: 350px;
+  height: 330px;
 }
 
 .content-detail .product-information {
@@ -201,7 +197,7 @@ html {
 
 .content-detail .product-information .product-reviews .customer-review {
   color: var(--fontcolor);
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin-left: 5px;
 }
 
@@ -217,16 +213,14 @@ html {
 
 .content-detail .product-information .product-description {
   color: var(--fontcolor);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 45px;
+  margin-bottom: 48px;
 }
 
 .content-detail .product-information .orther-information {
-  height: 80px;
   display: grid;
   grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
-  border-bottom: var(--line-color) outset 2px;
 }
 
 .content-detail .product-information .orther-information .release-date,
@@ -235,84 +229,20 @@ html {
   font-size: 1.6rem;
   font-weight: 600;
   display: grid;
-  grid-template-rows: 35% 35%;
+  grid-gap: 15px;
 }
 
 .content-detail .product-information .orther-information .orther-title {
   color: var(--black);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 150;
-}
-
-.content-detail .product-information .orther-information .info {
-  color: var(--fontcolor);
-}
-
-.content-detail .product-information .orther-information .dev-link {
-  color: var(--black);
-}
-
-.content-detail .product-information .orther-information .dev-link:hover {
-  color: var(--hover-color)
+  font-family: 'Anton', sans-serif;
+  font-weight: 200;
 }
 
 .product-purchase-table {
   width: 100%;
   background-color: var(--product-purchase-table);
-  padding: 25px;
-  border-radius: 10px;
-  /* font-family: 'Roboto', sans-serif; */
-}
 
-.product-purchase-table .product-price {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.3rem;
-  font-weight: 900;
 }
-
-.product-purchase-table .product-price .old-price {
-  text-decoration: line-through;
-  color: var(--old-price);
-}
-
-.product-purchase-table .product-price .current-price {
-  color: var(--hover-color);
-}
-
-.product-purchase-table .platform,
-.product-purchase-table .edition {
-  margin-top: 18px;
-  display: grid;
-  grid-template-columns: 26% 72%;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
-  align-items: center;
-  height: 50px;
-}
-
-.product-purchase-table .platform .plat-text,
-.product-purchase-table .edition .edi-text {
-  font-weight: 800;
-}
-
-.product-purchase-table .platform .plat-dropdown,
-.product-purchase-table .edition .edi-dropdown {
-  display: flex;
-  border: var(--line-color) solid 2px;
-  border-radius: 20px;
-  padding: 10px;
-  font-size: 1.3rem;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--fontcolor);
-  cursor: pointer;
-}
-
-.product-purchase-table .platform .plat-dropdown .icon-down,
-.product-purchase-table .edition .edi-dropdown .icon-down {
-  color: var(--icon-down);
-}
-
 
 @media(max-width: 991px) {
   html {

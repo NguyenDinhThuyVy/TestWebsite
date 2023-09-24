@@ -300,7 +300,7 @@ html {
   display: flex;
   border: var(--line-color) solid 2px;
   border-radius: 20px;
-  padding: 10px;
+  padding: 12px;
   font-size: 1.3rem;
   align-items: center;
   justify-content: space-between;
