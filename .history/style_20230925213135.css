@@ -36,7 +36,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: none;
+  text-transform: capitalize;
 }
 
 *::-moz-selection {
@@ -229,7 +229,7 @@ html {
 
 .content-detail .product-information .product-description {
   color: var(--fontcolor);
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 41px;
 }
@@ -273,7 +273,7 @@ html {
 .content-detail .product-purchase-table {
   width: 100%;
   background-color: var(--product-purchase-table);
-  padding: 40px;
+  padding: 25px;
   border-radius: 10px;
   /* font-family: 'Roboto', sans-serif; */
 }
@@ -398,11 +398,11 @@ html {
   color: var(--white);
 }
 
-.content-detail .product-purchase-table .product-payment .product-add:hover {
+.product-payment .product-add:hover {
   background-color: var(--bcg-add-hover);
 }
 
-.content-detail .product-purchase-table .product-payment .product-buy {
+.product-payment .product-buy {
   font-family: 'Roboto', sans-serif;
   font-size: 1.4rem;
   font-weight: bolder;
@@ -415,36 +415,8 @@ html {
   color: var(--black)
 }
 
-.content-detail .product-purchase-table .product-payment .product-buy:hover {
+.product-payment .product-buy:hover {
   background-color: #8f3c3c30;
-}
-
-.content-detail .product-purchase-table .another-choice {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-top: 23px;
-  font-size: 1.6rem;
-  font-weight: 900;
-}
-
-.content-detail .product-purchase-table .another-choice .favorite-product .favpro-text,
-.content-detail .product-purchase-table .another-choice .product-share,
-.content-detail .product-purchase-table .another-choice .product-share .prosha-text {
-  color: var(--black);
-  text-transform: none;
-}
-
-.content-detail .product-purchase-table .another-choice .favorite-product .favpro-text:hover {
-  color: var(--fontcolor);
-}
-
-.content-detail .product-purchase-table .another-choice .product-share .social-network {
-  color: var(--fontcolor);
-  margin-left: 8px;
-}
-
-.content-detail .product-purchase-table .another-choice .product-share .social-network:hover {
-  color: var(--black);
 }
 
 @media(max-width: 991px) {
@@ -453,12 +425,10 @@ html {
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
   .product-management {
     display: inline-block;
   }
-
-
 }
 
 @media(max-width: 450px) {

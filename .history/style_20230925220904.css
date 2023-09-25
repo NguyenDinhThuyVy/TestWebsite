@@ -453,12 +453,20 @@ html {
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
   .product-management {
     display: inline-block;
   }
 
-
+  .detail-wrapper {
+    display: grid;
+    grid-template-rows: 1005;
+    grid-template-rows: 50% 50%;
+    background-color: var(--bcg-detail-color);
+    height: 650px;
+    overflow: hidden;
+    /* align-items: stretch; */
+  }
 }
 
 @media(max-width: 450px) {

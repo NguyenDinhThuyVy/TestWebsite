@@ -36,7 +36,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: none;
+  text-transform: capitalize;
 }
 
 *::-moz-selection {
@@ -229,7 +229,7 @@ html {
 
 .content-detail .product-information .product-description {
   color: var(--fontcolor);
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 41px;
 }
@@ -431,7 +431,6 @@ html {
 .content-detail .product-purchase-table .another-choice .product-share,
 .content-detail .product-purchase-table .another-choice .product-share .prosha-text {
   color: var(--black);
-  text-transform: none;
 }
 
 .content-detail .product-purchase-table .another-choice .favorite-product .favpro-text:hover {
@@ -453,12 +452,10 @@ html {
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
   .product-management {
     display: inline-block;
   }
-
-
 }
 
 @media(max-width: 450px) {

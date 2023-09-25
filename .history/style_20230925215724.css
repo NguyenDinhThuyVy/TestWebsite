@@ -453,12 +453,10 @@ html {
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
   .product-management {
     display: inline-block;
   }
-
-
 }
 
 @media(max-width: 450px) {

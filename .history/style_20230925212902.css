@@ -36,7 +36,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: none;
+  text-transform: capitalize;
 }
 
 *::-moz-selection {
@@ -229,7 +229,7 @@ html {
 
 .content-detail .product-information .product-description {
   color: var(--fontcolor);
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 41px;
 }
@@ -273,7 +273,7 @@ html {
 .content-detail .product-purchase-table {
   width: 100%;
   background-color: var(--product-purchase-table);
-  padding: 40px;
+  padding: 25px;
   border-radius: 10px;
   /* font-family: 'Roboto', sans-serif; */
 }
@@ -284,17 +284,17 @@ html {
   font-weight: 900;
 }
 
-.content-detail .product-purchase-table .product-price .old-price {
+.product-purchase-table .product-price .old-price {
   text-decoration: line-through;
   color: var(--old-price);
 }
 
-.content-detail .product-purchase-table .product-price .current-price {
+.product-purchase-table .product-price .current-price {
   color: var(--hover-color);
 }
 
-.content-detail .product-purchase-table .platform,
-.content-detail .product-purchase-table .edition {
+.product-purchase-table .platform,
+.product-purchase-table .edition {
   margin-top: 15px;
   display: grid;
   grid-template-columns: 26% 72%;
@@ -304,13 +304,13 @@ html {
   height: 50px;
 }
 
-.content-detail .product-purchase-table .platform .plat-text,
-.content-detail .product-purchase-table .edition .edi-text {
+.product-purchase-table .platform .plat-text,
+.product-purchase-table .edition .edi-text {
   font-weight: 800;
 }
 
-.content-detail .product-purchase-table .platform .plat-dropdown,
-.content-detail .product-purchase-table .edition .edi-dropdown {
+.product-purchase-table .platform .plat-dropdown,
+.product-purchase-table .edition .edi-dropdown {
   display: flex;
   border: var(--line-color) solid 2px;
   border-radius: 20px;
@@ -322,12 +322,12 @@ html {
   cursor: pointer;
 }
 
-.content-detail .product-purchase-table .platform .plat-dropdown .icon-down,
-.content-detail .product-purchase-table .edition .edi-dropdown .icon-down {
+.product-purchase-table .platform .plat-dropdown .icon-down,
+.product-purchase-table .edition .edi-dropdown .icon-down {
   color: var(--icon-down);
 }
 
-.content-detail .product-purchase-table .product-payment {
+.product-payment {
   width: 100%;
   height: 50px;
   display: grid;
@@ -336,7 +336,7 @@ html {
   place-items: center;
 }
 
-.content-detail .product-purchase-table .product-payment .product-number {
+.product-payment .product-number {
   overflow: hidden;
   display: table;
   width: 95%;
@@ -346,21 +346,21 @@ html {
   margin-right: 10px;
 }
 
-.content-detail .product-purchase-table .product-payment .product-number .col {
+.product-payment .product-number .col {
   display: table-cell;
   padding: 0.6rem;
   vertical-align: middle;
   text-align: center;
 }
 
-.content-detail .product-purchase-table .product-payment .product-number .col-number {
+.product-payment .product-number .col-number {
   border-top: var(--line-color) solid 2px;
   border-bottom: var(--line-color) solid 2px;
   color: var(--fontcolor);
   font-size: 1.3rem;
 }
 
-.content-detail .product-purchase-table .product-payment .product-number .col-plus {
+.product-payment .product-number .col-plus {
   border: var(--line-color) solid 2px;
   border-radius: 0px 30px 30px 0px;
   cursor: pointer;
@@ -369,7 +369,7 @@ html {
   font-size: 1.1rem;
 }
 
-.content-detail .product-purchase-table .product-payment .product-number .col-minus {
+.product-payment .product-number .col-minus {
   border: var(--line-color) solid 2px;
   border-radius: 30px 0px 0px 30px;
   cursor: pointer;
@@ -378,14 +378,14 @@ html {
   font-size: 1.1rem;
 }
 
-.content-detail .product-purchase-table .product-payment .product-number .col-plus:hover,
-.content-detail .product-purchase-table .product-payment .product-number .col-minus:hover {
+.product-payment .product-number .col-plus:hover,
+.product-payment .product-number .col-minus:hover {
   background-color: var(--hover-color);
   border: var(--boder-number) solid 2px;
   color: var(--white);
 }
 
-.content-detail .product-purchase-table .product-payment .product-add {
+.product-payment .product-add {
   font-family: 'Roboto', sans-serif;
   font-size: 1.4rem;
   font-weight: bolder;
@@ -398,11 +398,11 @@ html {
   color: var(--white);
 }
 
-.content-detail .product-purchase-table .product-payment .product-add:hover {
+.product-payment .product-add:hover {
   background-color: var(--bcg-add-hover);
 }
 
-.content-detail .product-purchase-table .product-payment .product-buy {
+.product-payment .product-buy {
   font-family: 'Roboto', sans-serif;
   font-size: 1.4rem;
   font-weight: bolder;
@@ -415,36 +415,8 @@ html {
   color: var(--black)
 }
 
-.content-detail .product-purchase-table .product-payment .product-buy:hover {
+.product-payment .product-buy:hover {
   background-color: #8f3c3c30;
-}
-
-.content-detail .product-purchase-table .another-choice {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-top: 23px;
-  font-size: 1.6rem;
-  font-weight: 900;
-}
-
-.content-detail .product-purchase-table .another-choice .favorite-product .favpro-text,
-.content-detail .product-purchase-table .another-choice .product-share,
-.content-detail .product-purchase-table .another-choice .product-share .prosha-text {
-  color: var(--black);
-  text-transform: none;
-}
-
-.content-detail .product-purchase-table .another-choice .favorite-product .favpro-text:hover {
-  color: var(--fontcolor);
-}
-
-.content-detail .product-purchase-table .another-choice .product-share .social-network {
-  color: var(--fontcolor);
-  margin-left: 8px;
-}
-
-.content-detail .product-purchase-table .another-choice .product-share .social-network:hover {
-  color: var(--black);
 }
 
 @media(max-width: 991px) {
@@ -453,12 +425,10 @@ html {
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
   .product-management {
     display: inline-block;
   }
-
-
 }
 
 @media(max-width: 450px) {
