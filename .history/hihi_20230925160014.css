@@ -1,0 +1,21 @@
+HTML CSSResult Skip Results Iframe EDIT ON
+/* table properties */
+
+.col-wrap {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  border: black solid 2px;
+  display: table-cell;
+  padding: 1rem
+}
+
+.col:nth-child(even) {
+  background-color: orange;
+}
+
+.col:nth-child(odd) {
+  background-color: yellow;
+}

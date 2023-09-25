@@ -1,0 +1,76 @@
+/* HTML CSSResult Skip Results Iframe EDIT ON */
+/* table properties */
+.product-payment {
+  width: 300px;
+  background-color: rgb(253, 228, 232);
+  display: grid;
+  padding: 15px;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.col-wrap {
+  overflow: hidden;
+  display: table;
+  width: 92%;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  display: table-cell;
+  padding: 0.5rem
+}
+
+.col-number {
+  border-top: #d3d9e5 solid 1px;
+  border-bottom: #d3d9e5 solid 1px;
+  background-color: #FFFFFF;
+  color: #929498;
+  font-size: 0.8rem;
+}
+
+.col-plus {
+  border: #d3d9e5 solid 1px;
+  border-radius: 0px 30px 30px 0px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  color: #929498;
+  font-weight: 100;
+  font-size: 0.5rem;
+}
+
+.col-plus:hover,
+.col-minus:hover {
+  background-color: #c81d1dce;
+  color: white;
+}
+
+.col-minus {
+  border: #d3d9e5 solid 1px;
+  border-radius: 30px 0px 0px 30px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  color: #929498;
+  font-size: 0.5rem;
+}
+
+.product-add {
+  border: none;
+  margin-right: 12px;
+  cursor: pointer;
+  background-color: #c81d1db1;
+  border-radius: 20px;
+  color: rgb(254, 254, 255);
+}
+
+.product-add:hover {
+  background-color: #c81d1dc9;
+}
+
+.product-buy {
+  border: none;
+  cursor: pointer;
+  background-color: #c73d3d77;
+  border-radius: 20px;
+  color: rgba(16, 16, 16, 0.881);
+}

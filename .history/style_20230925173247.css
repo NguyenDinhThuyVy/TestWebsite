@@ -6,13 +6,13 @@
 :root {
   --title-color: rgb(67, 67, 67);
   --line-color: #adabab37;
-  --white: rgb(255, 253, 253);
+  --white: rgba(255, 254, 254, 0.94);
   --main-color: #F7F7F7;
   --bcg-detail-color: #f8f8f8;
   --labels-color: #fdf7f7;
   --product-purchase-table: #ffffff;
   --hover-color: #c81d1dce;
-  --bcg-add: #ce1515c4;
+  --bcg-button: #c81d1dce;
   --star-color: #EABE12;
   --black: #191717;
   --white: #fff;
@@ -23,8 +23,6 @@
   --icon-down: #77777758;
   --old-price: #BBBBBB;
   --boder-number: #c62323b5;
-  --bcg-add-hover: #bc1313dd;
-  --bcg-buy: #c73d3d77
 }
 
 * {
@@ -224,7 +222,7 @@ html {
   color: var(--fontcolor);
   font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 41px;
+  margin-bottom: 45px;
 }
 
 .content-detail .product-information .orther-information {
@@ -286,7 +284,7 @@ html {
 
 .product-purchase-table .platform,
 .product-purchase-table .edition {
-  margin-top: 15px;
+  margin-top: 18px;
   display: grid;
   grid-template-columns: 26% 72%;
   font-family: 'Roboto', sans-serif;
@@ -322,7 +320,7 @@ html {
   width: 100%;
   height: 50px;
   display: grid;
-  margin-top: 20px;
+  padding: 15px;
   grid-template-columns: 30% 40% 30%;
   place-items: center;
 }
@@ -330,11 +328,10 @@ html {
 .product-payment .product-number {
   overflow: hidden;
   display: table;
-  width: 95%;
+  width: 92%;
   height: 40px;
   vertical-align: middle;
   text-align: center;
-  margin-right: 10px;
 }
 
 .product-payment .product-number .col {
@@ -377,37 +374,12 @@ html {
 }
 
 .product-payment .product-add {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.4rem;
-  font-weight: bolder;
-  width: 90%;
-  height: 40px;
   border: none;
+  margin-right: 12px;
   cursor: pointer;
-  background-color: var(--bcg-add);
+  background-color: var(--bcg-button);
   border-radius: 20px;
-  color: var(--white);
-}
-
-.product-payment .product-add:hover {
-  background-color: var(--bcg-add-hover);
-}
-
-.product-payment .product-buy {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.4rem;
-  font-weight: bolder;
-  width: 95%;
-  height: 40px;
-  border: none;
-  cursor: pointer;
-  background-color: var(--bcg-buy);
-  border-radius: 20px;
-  color: var(--black)
-}
-
-.product-payment .product-buy:hover {
-  background-color: #8f3c3c30;
+  color: rgb(254, 254, 255);
 }
 
 @media(max-width: 991px) {
