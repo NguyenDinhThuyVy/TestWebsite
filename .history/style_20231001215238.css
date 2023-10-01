@@ -448,8 +448,6 @@ html {
   color: var(--black);
 }
 
-/*    <!-- End content-detail area --> */
-/*    <!-- Start footer content area --> */
 .product-content .footer-content {
   margin: 3.8rem 0px 0px 1.8rem;
 }
@@ -485,26 +483,6 @@ html {
 }
 
 /*    <!-- End footer content area --> */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* responsive */
 @media(max-width: 1500px) {
