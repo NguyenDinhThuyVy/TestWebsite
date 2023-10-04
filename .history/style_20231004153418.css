@@ -10,7 +10,6 @@
   --white: rgb(255, 253, 253);
   --main-color: #F7F7F7;
   --bcg-detail-color: #f8f8f8;
-  --bcg-description-color: #FFFFFF;
   --labels-color: #fdf7f7;
   --product-purchase-table: #ffffff;
   --hover-color: #c81d1dce;
@@ -52,9 +51,8 @@
 }
 
 ::-webkit-scrollbar {
-  height: 0.1rem;
+  height: 0.5rem;
   width: 1rem;
-  border-radius: 50%;
 }
 
 ::-webkit-scrollbar-track {
@@ -62,8 +60,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--icon-down);
-  border-radius: 20px;
+  background-color: var(--li);
 }
 
 html {
@@ -492,74 +489,16 @@ html {
 
 /* <!-- Start Description area --> */
 .description-wrapper {
-  /* height: 1200px; */
+  height: 1010px;
   margin: 0px 20px;
-  background-color: var(--bcg-description-color);
 }
 
 .description-wrapper .description-title h1 {
   margin-top: 70px;
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-family: 'Roboto', sans-serif;
-  font-weight: 350;
+  font-weight: 400;
   color: var(--black);
-}
-
-.description-wrapper .description-slider {
-  margin: 40px 0px;
-  height: 260px;
-}
-
-.description-wrapper .description-detail h2 {
-  font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 250;
-}
-
-.description-wrapper .description-detail .main-actors:not(.actors-label) {
-  margin-top: 20px;
-  display: grid;
-  height: 80px;
-  width: 60%;
-  grid-template-columns: repeat(6, calc(100%/6));
-  overflow: hidden;
-  place-items: center;
-}
-
-.description-wrapper .description-detail .main-actors .actors-label {
-  font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  color: var(--bcg-add-hover);
-}
-
-.description-wrapper .description-detail .actors-img {
-  height: 60px;
-  width: 50%;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 2px 5px 6px rgba(203, 178, 178, 0.742);
-}
-
-.description-wrapper .description-detail .story-summary {
-  margin-top: 30px;
-  align-items: center;
-  justify-content: center;
-}
-
-.description-wrapper .description-detail .story-summary .story-summary-value {
-  color: var(--fontcolor);
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
-.description-wrapper .description-detail .story-summary .story-summary-img {
-  width: 800px;
-  margin-bottom: 15px;
-  border: var(--black) solid 1px;
-  border-radius: 30px;
 }
 
 /* <!-- End Description area --> */

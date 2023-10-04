@@ -492,7 +492,7 @@ html {
 
 /* <!-- Start Description area --> */
 .description-wrapper {
-  /* height: 1200px; */
+  height: 1010px;
   margin: 0px 20px;
   background-color: var(--bcg-description-color);
 }
@@ -516,14 +516,17 @@ html {
   font-weight: 250;
 }
 
-.description-wrapper .description-detail .main-actors:not(.actors-label) {
+.description-wrapper .description-detail .main-actors {
   margin-top: 20px;
   display: grid;
   height: 80px;
-  width: 60%;
+  width: 50%;
   grid-template-columns: repeat(6, calc(100%/6));
   overflow: hidden;
   place-items: center;
+  /* background-color: var(--bcg-detail-color); */
+  border-radius: 20px;
+
 }
 
 .description-wrapper .description-detail .main-actors .actors-label {
@@ -538,28 +541,6 @@ html {
   width: 50%;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 2px 5px 6px rgba(203, 178, 178, 0.742);
-}
-
-.description-wrapper .description-detail .story-summary {
-  margin-top: 30px;
-  align-items: center;
-  justify-content: center;
-}
-
-.description-wrapper .description-detail .story-summary .story-summary-value {
-  color: var(--fontcolor);
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
-.description-wrapper .description-detail .story-summary .story-summary-img {
-  width: 800px;
-  margin-bottom: 15px;
-  border: var(--black) solid 1px;
-  border-radius: 30px;
 }
 
 /* <!-- End Description area --> */

@@ -492,7 +492,7 @@ html {
 
 /* <!-- Start Description area --> */
 .description-wrapper {
-  /* height: 1200px; */
+  height: 1010px;
   margin: 0px 20px;
   background-color: var(--bcg-description-color);
 }
@@ -543,23 +543,19 @@ html {
 
 .description-wrapper .description-detail .story-summary {
   margin-top: 30px;
-  align-items: center;
-  justify-content: center;
 }
 
 .description-wrapper .description-detail .story-summary .story-summary-value {
   color: var(--fontcolor);
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 41px;
   text-align: justify;
 }
 
 .description-wrapper .description-detail .story-summary .story-summary-img {
-  width: 800px;
-  margin-bottom: 15px;
-  border: var(--black) solid 1px;
-  border-radius: 30px;
+  width: 1000px;
+  align-items: center;
 }
 
 /* <!-- End Description area --> */
