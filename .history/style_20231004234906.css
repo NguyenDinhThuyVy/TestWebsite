@@ -741,7 +741,7 @@ html {
   }
 
   .description-wrapper .description-detail .story-summary .story-summary-img {
-    width: 65rem;
+    width: 80rem;
     margin-bottom: 15px;
     border: var(--black) solid 1px;
     border-radius: 30px;
@@ -796,22 +796,7 @@ html {
     overflow: hidden;
   }
 
-  .description-wrapper .description-detail .main-actors:not(.actors-label) {
-    margin-top: 20px;
-    display: grid;
-    height: 80px;
-    width: 450px;
-    grid-template-columns: repeat(6, calc(100%/6));
-    overflow: hidden;
-    place-items: center;
-  }
 
-  .description-wrapper .description-detail .story-summary .story-summary-img {
-    width: 50rem;
-    margin-bottom: 15px;
-    border: var(--black) solid 1px;
-    border-radius: 30px;
-  }
 }
 
 @media(max-width: 450px) {

@@ -806,12 +806,6 @@ html {
     place-items: center;
   }
 
-  .description-wrapper .description-detail .story-summary .story-summary-img {
-    width: 50rem;
-    margin-bottom: 15px;
-    border: var(--black) solid 1px;
-    border-radius: 30px;
-  }
 }
 
 @media(max-width: 450px) {
