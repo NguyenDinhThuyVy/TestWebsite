@@ -729,7 +729,6 @@ html {
 
 .discounted-wrapper .discounted-content .discounted-items .item-content .item-review .icon-star {
   font-size: small;
-  color: var(--star-color);
 }
 
 .discounted-wrapper .discounted-content .discounted-items .item-content .item-price span {

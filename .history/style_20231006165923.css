@@ -678,65 +678,23 @@ html {
 }
 
 .discounted-wrapper .discounted-content {
-  margin-top: 40px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100px 100px;
-  gap: 25px;
+  gap: 15px 15px;
 
 }
 
-.discounted-wrapper .discounted-content .discounted-items:not(.item-content) {
+.discounted-wrapper .discounted-content .discounted-items {
   display: grid;
-  grid-template-columns: 23% 70%;
+  grid-template-columns: 50% 50%;
   overflow: hidden;
-}
-
-.discounted-wrapper .discounted-content .discounted-items .item-view {
   place-items: center;
-  object-fit: contain;
-  overflow: hidden;
 }
 
 .discounted-wrapper .discounted-content .discounted-items .item-view img {
-  height: 90px;
-  width: 70px;
+  width: 80%;
   object-fit: cover;
-  border-radius: 5px;
-}
-
-.discounted-wrapper .discounted-content .discounted-items .item-content {
-  display: grid;
-  grid-template-rows: 22px 22px;
-  gap: 5px;
-  font-size: 1.8rem;
-  margin-left: 10px;
-  color: var(--black);
-}
-
-.discounted-wrapper .discounted-content .discounted-items .item-content .item-name a {
-  font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  color: var(--overview-title-color);
-  transition: all 0.2s linear;
-}
-
-.discounted-wrapper .discounted-content .discounted-items .item-content .item-name a:hover {
-  color: var(--fontcolor);
-
-}
-
-.discounted-wrapper .discounted-content .discounted-items .item-content .item-review .icon-star {
-  font-size: small;
-  color: var(--star-color);
-}
-
-.discounted-wrapper .discounted-content .discounted-items .item-content .item-price span {
-  color: var(--bcg-add-hover);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 50;
-  font-size: 1.6rem;
 }
 
 /* <!-- End discount area --> */

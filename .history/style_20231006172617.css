@@ -708,7 +708,7 @@ html {
 .discounted-wrapper .discounted-content .discounted-items .item-content {
   display: grid;
   grid-template-rows: 22px 22px;
-  gap: 5px;
+  gap: 10px;
   font-size: 1.8rem;
   margin-left: 10px;
   color: var(--black);
@@ -719,24 +719,12 @@ html {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   color: var(--overview-title-color);
-  transition: all 0.2s linear;
-}
-
-.discounted-wrapper .discounted-content .discounted-items .item-content .item-name a:hover {
-  color: var(--fontcolor);
-
-}
-
-.discounted-wrapper .discounted-content .discounted-items .item-content .item-review .icon-star {
-  font-size: small;
-  color: var(--star-color);
 }
 
 .discounted-wrapper .discounted-content .discounted-items .item-content .item-price span {
   color: var(--bcg-add-hover);
   font-family: 'Roboto', sans-serif;
   font-weight: 50;
-  font-size: 1.6rem;
 }
 
 /* <!-- End discount area --> */
