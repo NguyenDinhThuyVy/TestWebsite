@@ -1039,8 +1039,8 @@ html {
   }
 
 
-  .description-wrapper .description-detail .story-summary .story-summary-img {
-    width: 450px;
+  .description-wrapper .description-detail .story-summary .story-summary-img img {
+    width: 350px;
     margin-bottom: 15px;
     border: var(--black) solid 1px;
     border-radius: 30px;

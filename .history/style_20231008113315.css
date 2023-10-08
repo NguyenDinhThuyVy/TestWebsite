@@ -962,7 +962,7 @@ html {
   .discounted-wrapper {
     background-color: var(--bcg-detail-color);
     padding: 20px;
-    height: 450px;
+    /* height: 75%; */
     border-radius: 5px;
     overflow: hidden;
   }
@@ -1040,7 +1040,7 @@ html {
 
 
   .description-wrapper .description-detail .story-summary .story-summary-img {
-    width: 450px;
+    width: 400px;
     margin-bottom: 15px;
     border: var(--black) solid 1px;
     border-radius: 30px;

@@ -34,7 +34,7 @@
   font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
+  /* -webkit-box-sizing: border-box; */
   box-sizing: border-box;
   outline: none;
   /* border: none; */
@@ -152,7 +152,7 @@ html {
   padding: 0 20px;
 }
 
-.header-detail .path-detail .product-path a,
+F .header-detail .path-detail .product-path a,
 .header-detail .path-detail .product-name {
   margin-left: 5px;
   font-size: 14px;
@@ -651,8 +651,6 @@ html {
   font-weight: 900;
 }
 
-
-
 .specification-wrapper .overview .overview-content .platform-value a,
 .specification-wrapper .overview .overview-content .overview-developer .developer-value a {
   color: var(--black);
@@ -693,7 +691,6 @@ html {
 
 .discounted-wrapper .discounted-content .discounted-items:not(.item-content) {
   display: grid;
-  width: 324px;
   grid-template-columns: 23% 70%;
   overflow: hidden;
 }
@@ -720,10 +717,10 @@ html {
   color: var(--black);
 }
 
-.discounted-wrapper .discounted-content .discounted-items .item-content .item-name span {
-  font-size: 17px;
+.discounted-wrapper .discounted-content .discounted-items .item-content .item-name a {
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   color: var(--overview-title-color);
   transition: all 0.2s linear;
 }
@@ -861,15 +858,13 @@ html {
     transition: all 0.2s linear;
     white-space: nowrap;
     word-break: break-word;
+    ;
     overflow: hidden;
 
   }
 
+
 }
-
-
-
-
 
 @media(max-width: 1000px) {
   html {
@@ -951,26 +946,7 @@ html {
     border-radius: 30px;
   }
 
-  .wrapper {
-    margin: 80px 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    height: auto;
-    gap: 30px 0px;
-  }
-
-  .discounted-wrapper {
-    background-color: var(--bcg-detail-color);
-    padding: 20px;
-    height: 450px;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-
 }
-
-
-
 
 @media(max-width: 600px) {
   html {
@@ -1040,15 +1016,12 @@ html {
 
 
   .description-wrapper .description-detail .story-summary .story-summary-img {
-    width: 450px;
+    width: 400px;
     margin-bottom: 15px;
     border: var(--black) solid 1px;
     border-radius: 30px;
   }
 }
-
-
-
 
 @media(max-width: 450px) {
   html {
