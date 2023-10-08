@@ -70,7 +70,8 @@
 }
 
 .hiih {
-  bottom: 1;
+  hyphenate-character: background-repeat: no-repeat;
+  ;
 }
 
 .product-payment .product-buy {
