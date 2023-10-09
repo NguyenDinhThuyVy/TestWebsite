@@ -48,7 +48,7 @@
 }
 
 *::selection {
-  background-color: var(--boder-number);
+  background-color: var(--bcg-buy);
   color: var(--white);
 }
 

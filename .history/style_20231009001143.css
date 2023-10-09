@@ -47,10 +47,10 @@
   color: var(--white);
 }
 
-*::selection {
-  background-color: var(--boder-number);
+/* *::selection {
+  background-color: var(--bcg-detail-color);
   color: var(--white);
-}
+} */
 
 ::-webkit-scrollbar {
   height: 1px;

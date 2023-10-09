@@ -48,8 +48,8 @@
 }
 
 *::selection {
-  background-color: var(--boder-number);
-  color: var(--white);
+  background-color: var(--bcg-buy);
+  color: var(--black);
 }
 
 ::-webkit-scrollbar {
