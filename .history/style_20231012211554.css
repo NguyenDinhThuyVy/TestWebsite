@@ -776,7 +776,7 @@ body {
 
 .customerReviews-wrapper .total .total-Rating .ratingHeader-star i {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .customerReviews-wrapper .total .total-Rating .ratingHeader-reviews {
@@ -796,7 +796,7 @@ body {
   grid-template-columns: 15% 79% 3%;
   gap: 0 5px;
   place-items: center;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .customerReviews-wrapper .total .total-Rating .rating-main .rating-items .stars-area i {

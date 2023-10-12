@@ -752,11 +752,12 @@ body {
   background-color: var(--bcg-detail-color);
   border-radius: 5px;
   padding: 20px;
-  height: 1200px;
+  height: 1100px;
 }
 
 
 .customerReviews-wrapper .total {
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -776,7 +777,7 @@ body {
 
 .customerReviews-wrapper .total .total-Rating .ratingHeader-star i {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .customerReviews-wrapper .total .total-Rating .ratingHeader-reviews {
@@ -788,7 +789,7 @@ body {
 
 
 .customerReviews-wrapper .total .total-Rating .rating-main {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .customerReviews-wrapper .total .total-Rating .rating-main .rating-items {
@@ -796,7 +797,7 @@ body {
   grid-template-columns: 15% 79% 3%;
   gap: 0 5px;
   place-items: center;
-  margin-top: 8px;
+  margin-top: 13px;
 }
 
 .customerReviews-wrapper .total .total-Rating .rating-main .rating-items .stars-area i {
@@ -832,7 +833,7 @@ body {
 .customerReviews-wrapper .total .total-Rating .rating-main .quantity-area span {
   font-size: 17px;
   font-weight: bolder;
-  color: var(--fontcolor);
+  color: var(--icon-down);
 }
 
 

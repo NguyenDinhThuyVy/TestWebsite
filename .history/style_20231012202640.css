@@ -27,8 +27,7 @@
   --boder-number: #c62323b5;
   --bcg-add-hover: #bc1313dd;
   --bcg-buy: #c73d3d77;
-  --overview-title-color: #333333da;
-  --proportional-area: #cac6c673;
+  --overview-title-color: #333333da
 }
 
 * {
@@ -747,16 +746,17 @@ body {
 /* <!-- Start Customer Reviews --> */
 .customerReviews-wrapper {
   display: grid;
-  grid-template-rows: 4% 60% 36%;
+  grid-template-rows: 4% 45% 45%;
   margin: 80px 20px;
   background-color: var(--bcg-detail-color);
   border-radius: 5px;
   padding: 20px;
-  height: 1200px;
+  height: 1000px;
 }
 
 
 .customerReviews-wrapper .total {
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -776,7 +776,7 @@ body {
 
 .customerReviews-wrapper .total .total-Rating .ratingHeader-star i {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .customerReviews-wrapper .total .total-Rating .ratingHeader-reviews {
@@ -788,54 +788,13 @@ body {
 
 
 .customerReviews-wrapper .total .total-Rating .rating-main {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .customerReviews-wrapper .total .total-Rating .rating-main .rating-items {
   display: grid;
-  grid-template-columns: 15% 79% 3%;
-  gap: 0 5px;
-  place-items: center;
-  margin-top: 8px;
+  grid-template-columns: 90px 76% 4%;
 }
-
-.customerReviews-wrapper .total .total-Rating .rating-main .rating-items .stars-area i {
-  margin-right: 0px;
-  font-size: 16px;
-}
-
-.customerReviews-wrapper .total .total-Rating .rating-main .wrapper-proportional-area {
-  height: 11px;
-  width: 100%;
-}
-
-.customerReviews-wrapper .total .total-Rating .rating-main .rating-five .wrapper-proportional-area .proportional-area {
-  border-radius: 20px;
-  height: 100%;
-  width: 100%;
-  background-color: var(--bcg-add);
-}
-
-.customerReviews-wrapper .total .total-Rating .rating-main .rating-five .quantity-area span {
-  font-size: 17px;
-  font-weight: bolder;
-  color: #191717;
-}
-
-.customerReviews-wrapper .total .total-Rating .rating-main .wrapper-proportional-area .proportional-area {
-  border-radius: 20px;
-  height: 100%;
-  width: 100%;
-  background-color: var(--proportional-area);
-}
-
-.customerReviews-wrapper .total .total-Rating .rating-main .quantity-area span {
-  font-size: 17px;
-  font-weight: bolder;
-  color: var(--fontcolor);
-}
-
-
 
 
 
