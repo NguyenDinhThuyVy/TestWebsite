@@ -978,7 +978,7 @@ input[type='checkbox'] {
   overflow: hidden;
   background-color: rgb(255, 255, 255);
   border: #979494c0 solid 1px;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px;
 }
 
@@ -1015,17 +1015,8 @@ input[type='checkbox'] {
   margin-left: 20px;
   line-height: 22px;
 }
-
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-name .likes i {
-  margin-top: 10px;
-  color: var(--star-color);
 }
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-main p {
-  margin-top: 10px;
-  color: var(--fontcolor);
-  font-size: 16px;
-}
 
 
 /* responsive */

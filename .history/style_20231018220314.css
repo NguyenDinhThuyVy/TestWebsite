@@ -956,76 +956,21 @@ input[type='checkbox'] {
 }
 
 .customerReviews-wrapper .comments-area .reviews-heading .default {
-  width: 100px;
-  padding: 8px 15px;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.605);
-  border: #979494 solid 1px;
-  font-size: 14px;
-  color: #979494;
-}
-
-.customerReviews-wrapper .comments-area .review-box {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 49% 49%;
-  overflow: hidden;
-  margin-top: 25px;
-  gap: 0 18px;
-}
-
-.customerReviews-wrapper .comments-area .review-box .review-card {
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  border: #979494c0 solid 1px;
+  width: 120px;
+  padding: 10px 20px;
   border-radius: 10px;
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.605);
+  border: #333 solid 1px;
 }
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile {
-  display: flex;
-  align-items: center;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-image {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 5px 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  transition: 0.3s;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-name {
-  margin-left: 20px;
-  line-height: 22px;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-name .likes i {
-  margin-top: 10px;
-  color: var(--star-color);
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-main p {
-  margin-top: 10px;
-  color: var(--fontcolor);
-  font-size: 16px;
-}
+
+
 
 
 /* responsive */

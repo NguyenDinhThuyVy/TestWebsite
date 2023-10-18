@@ -1015,17 +1015,8 @@ input[type='checkbox'] {
   margin-left: 20px;
   line-height: 22px;
 }
-
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-name .likes i {
-  margin-top: 10px;
-  color: var(--star-color);
 }
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-main p {
-  margin-top: 10px;
-  color: var(--fontcolor);
-  font-size: 16px;
-}
 
 
 /* responsive */

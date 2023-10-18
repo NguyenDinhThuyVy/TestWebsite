@@ -968,64 +968,22 @@ input[type='checkbox'] {
 .customerReviews-wrapper .comments-area .review-box {
   width: 100%;
   display: grid;
-  grid-template-columns: 49% 49%;
+  grid-template-columns: 50% 50%;
   overflow: hidden;
-  margin-top: 25px;
-  gap: 0 18px;
 }
 
 .customerReviews-wrapper .comments-area .review-box .review-card {
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(250, 250, 250, 0.886);
   border: #979494c0 solid 1px;
-  border-radius: 10px;
-  padding: 20px;
 }
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile {
-  display: flex;
-  align-items: center;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-image {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin: 5px 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  transition: 0.3s;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-name {
-  margin-left: 20px;
-  line-height: 22px;
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-name .likes i {
-  margin-top: 10px;
-  color: var(--star-color);
-}
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-main p {
-  margin-top: 10px;
-  color: var(--fontcolor);
-  font-size: 16px;
-}
 
 
 /* responsive */

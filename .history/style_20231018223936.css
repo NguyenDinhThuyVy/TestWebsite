@@ -1017,15 +1017,10 @@ input[type='checkbox'] {
 }
 
 .customerReviews-wrapper .comments-area .review-box .review-card .card-top .profile .profile-name .likes i {
-  margin-top: 10px;
+  margin-top: 5px;
   color: var(--star-color);
 }
 
-.customerReviews-wrapper .comments-area .review-box .review-card .card-main p {
-  margin-top: 10px;
-  color: var(--fontcolor);
-  font-size: 16px;
-}
 
 
 /* responsive */
