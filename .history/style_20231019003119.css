@@ -812,7 +812,7 @@ body {
 
 .customerReviews-wrapper .total .total-Rating .rating-main .rating-items {
   display: grid;
-  grid-template-columns: 93px 74% 3%;
+  grid-template-columns: 23% 74% 3%;
   gap: 0 8px;
   place-items: center;
   margin-top: 8px;

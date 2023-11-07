@@ -765,7 +765,7 @@ body {
 /* <!-- Start Customer Reviews --> */
 .customerReviews-wrapper {
   display: grid;
-  grid-template-rows: 4% 62% 34%;
+  grid-template-rows: 4% 60% 36%;
   margin: 80px 20px;
   background-color: var(--bcg-detail-color);
   border-radius: 5px;
@@ -812,8 +812,8 @@ body {
 
 .customerReviews-wrapper .total .total-Rating .rating-main .rating-items {
   display: grid;
-  grid-template-columns: 93px 74% 3%;
-  gap: 0 8px;
+  grid-template-columns: 90px 74% 3%;
+  gap: 0 5px;
   place-items: center;
   margin-top: 8px;
   overflow: hidden;
@@ -826,11 +826,11 @@ body {
 .customerReviews-wrapper .total .total-Rating .rating-main .rating-items .stars-area i {
   color: var(--star-color);
   margin-right: 0px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .customerReviews-wrapper .total .total-Rating .rating-main .wrapper-proportional-area {
-  height: 10px;
+  height: 11px;
   width: 100%;
 }
 
@@ -951,7 +951,7 @@ input[type='checkbox'] {
 }
 
 .customerReviews-wrapper .comments-area {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .customerReviews-wrapper .comments-area .reviews-heading {
@@ -1244,36 +1244,6 @@ input[type='checkbox'] {
     overflow: hidden;
   }
 
-  .customerReviews-wrapper {
-    display: grid;
-    grid-template-rows: 1fr;
-    margin: 80px 20px;
-    background-color: var(--bcg-detail-color);
-    border-radius: 5px;
-    padding: 20px;
-    height: auto;
-  }
-
-  .customerReviews-wrapper .total {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 25px 0;
-  }
-
-  .customerReviews-wrapper .total .review-form-wrapper {
-    height: auto;
-    margin: 0;
-  }
-
-  .customerReviews-wrapper .comments-area .review-box {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    overflow: hidden;
-    margin-top: 25px;
-    gap: 18px 0;
-  }
-
 }
 
 
@@ -1322,12 +1292,6 @@ input[type='checkbox'] {
     overflow: hidden;
   }
 
-  .specification-wrapper .overview {
-    margin: 30px 0;
-    height: 380px;
-    border-bottom: var(--line-color) outset 2px;
-  }
-
   .description-wrapper .description-detail .main-actors:not(.actors-label) {
     margin-top: 20px;
     display: grid;
@@ -1359,12 +1323,4 @@ input[type='checkbox'] {
 
 
 
-@media(max-width: 450px) {
-
-  .description-wrapper .description-detail .story-summary .story-summary-img {
-    width: 350px;
-    margin-bottom: 15px;
-    border: var(--black) solid 1px;
-    border-radius: 30px;
-  }
-}
+@media(max-width: 450px) {}

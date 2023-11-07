@@ -1359,12 +1359,4 @@ input[type='checkbox'] {
 
 
 
-@media(max-width: 450px) {
-
-  .description-wrapper .description-detail .story-summary .story-summary-img {
-    width: 350px;
-    margin-bottom: 15px;
-    border: var(--black) solid 1px;
-    border-radius: 30px;
-  }
-}
+@media(max-width: 450px) {}
